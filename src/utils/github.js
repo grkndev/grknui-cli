@@ -1,11 +1,10 @@
 import fetch from 'node-fetch';
 
-// GitHub repository bilgilerinizi buraya ekleyin
 const GITHUB_CONFIG = {
   owner: 'grkndev',
   repo: 'grknui',
   branch: 'main',
-  componentsPath: 'src/components' // Repo'daki components klasörünün yolu
+  componentsPath: 'src/components'
 };
 
 export async function downloadComponent(componentName) {
@@ -31,7 +30,6 @@ export async function downloadComponent(componentName) {
   }
 }
 
-// Mevcut component'leri listele
 export async function listAvailableComponents() {
   const url = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/contents/${GITHUB_CONFIG.componentsPath}`;
   
