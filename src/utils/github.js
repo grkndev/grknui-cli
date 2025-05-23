@@ -3,7 +3,7 @@ import fetch from 'node-fetch';
 // GitHub repository bilgilerinizi buraya ekleyin
 const GITHUB_CONFIG = {
   owner: 'grkndev',
-  repo: 'your-ui-components-repo',
+  repo: 'grknui',
   branch: 'main',
   componentsPath: 'src/components' // Repo'daki components klasörünün yolu
 };
