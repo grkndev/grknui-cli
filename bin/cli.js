@@ -15,7 +15,7 @@ program
 program
   .command('add')
   .description('Add a component to your project')
-  .argument('<component>', 'component name to add')
+  .argument('[component]', 'component name to add (optional)')
   .option('-p, --path <path>', 'custom path for components', 'components/ui')
   .action(addCommand);
 
