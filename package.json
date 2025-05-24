@@ -1,6 +1,6 @@
 {
   "name": "grknui",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Custom UI component library CLI",
   "type": "module",
   "main": "src/index.js",
