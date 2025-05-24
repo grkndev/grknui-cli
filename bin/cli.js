@@ -10,7 +10,7 @@ const program = new Command();
 program
   .name('grknui')
   .description('CLI for Grkn UI Kit')
-  .version("1.0.3");
+  .version("1.0.4");
 
 program
   .command('add')
